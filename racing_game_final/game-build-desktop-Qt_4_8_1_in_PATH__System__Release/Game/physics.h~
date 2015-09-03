@@ -1,0 +1,23 @@
+/*
+ * physics.h
+ *
+ *  Created on: Aug 8, 2013
+ *      Author: cs1120224
+ */
+
+#ifndef PHYSICS_H_
+#define PHYSICS_H_
+
+/*! Physics Class implementing all functions to update velocity, distance etc. */
+class Manager{
+public:
+	void next();
+	void UpdateVel();
+	void HandleCollision();
+	void check();
+	void callAll();
+};
+
+
+
+#endif /* PHYSICS_H_ */

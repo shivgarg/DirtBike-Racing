@@ -1,0 +1,183 @@
+\hypertarget{classterrain}{\section{terrain \-Class \-Reference}
+\label{classterrain}\index{terrain@{terrain}}
+}
+
+
+\-Terrain class.  
+
+
+
+
+{\ttfamily \#include $<$terrain.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classterrain_ae75762648c90ea43d96682f14c4ca959}{\-Render} (void)
+\begin{DoxyCompactList}\small\item\em \-Renderer on \-Terrain with texture. \end{DoxyCompactList}\item 
+void \hyperlink{classterrain_a0bbd83dd3fcae5e98a742426ca0952f7}{\-Render1} (\hyperlink{classTexture}{\-Texture} $\ast$)
+\begin{DoxyCompactList}\small\item\em renders the terrain \end{DoxyCompactList}\item 
+void \hyperlink{classterrain_ac759516ced9ff5622a4582f4655a68e4}{\-Read} (void)
+\begin{DoxyCompactList}\small\item\em \-Reads the texture images and heightmap. \end{DoxyCompactList}\item 
+\hypertarget{classterrain_aea15f6c1fa249f9ad1eec58dda2142b4}{\hyperlink{classTexture}{\-Texture} $\ast$ \hyperlink{classterrain_aea15f6c1fa249f9ad1eec58dda2142b4}{loader} ()}\label{classterrain_aea15f6c1fa249f9ad1eec58dda2142b4}
+
+\begin{DoxyCompactList}\small\item\em this function loads the texture image and returns the texture object \end{DoxyCompactList}\item 
+\hyperlink{classterrain_ac3b9c935fdc77ecadb4da3cbc5d34c2d}{terrain} (char $\ast$pic)
+\begin{DoxyCompactList}\small\item\em \-This is the constructor of the terrain class. \end{DoxyCompactList}\item 
+\hypertarget{classterrain_a9c65d395aab1f48e33b84a7d2c90aa8d}{\hyperlink{classterrain_a9c65d395aab1f48e33b84a7d2c90aa8d}{terrain} (void)}\label{classterrain_a9c65d395aab1f48e33b84a7d2c90aa8d}
+
+\begin{DoxyCompactList}\small\item\em \-Null constructor of terrain class. \end{DoxyCompactList}\item 
+\-G\-Lfloat \hyperlink{classterrain_a1b0e140f76afbc44982d143e7ebd56d4}{get\-Height} (int, int)
+\begin{DoxyCompactList}\small\item\em \-Computes height at any point in the terrain. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const char $\ast$ \hyperlink{classterrain_abcf95fb0b8f7ef597a708e22ff10f42f}{heightmap}
+\item 
+\-G\-Lubyte $\ast$ \hyperlink{classterrain_ad07206f55359d1f2084ece2b06675425}{data}
+\item 
+int \hyperlink{classterrain_a50b9180d571e351f6c990c20eb49e18d}{terrainwidth}
+\item 
+int \hyperlink{classterrain_a1243f9d89e96dd55c48ea97eeea4053d}{terrainheight}
+\item 
+string \hyperlink{classterrain_ad6747f910061feba36ea983cc791c82f}{textures} \mbox{[}4\mbox{]}
+\item 
+\-G\-Luint \hyperlink{classterrain_abab37c6ed21ad3de44b7b11f31b702e6}{ids} \mbox{[}3\mbox{]}
+\item 
+\hyperlink{classTexture}{\-Texture} \hyperlink{classterrain_a71030654906d773de10eedbf121093b0}{ad} \mbox{[}4\mbox{]}
+\item 
+\hyperlink{structnormal}{normal} $\ast$$\ast$ \hyperlink{classterrain_a117ae013cf3d2da36b6febe47619c69b}{normals}
+\item 
+char $\ast$ \hyperlink{classterrain_a71b1c37938c0112a98a605855f7d9eef}{pathname}
+\item 
+\hypertarget{classterrain_a8190044bca035c6aed9562030a2d1c1e}{\hyperlink{structbonus}{bonus} {\bfseries markers} \mbox{[}300\mbox{]}}\label{classterrain_a8190044bca035c6aed9562030a2d1c1e}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-Terrain class. 
+
+\-This class takes input as heightmap and textures images which are to be mapped on it and on the \-H\-U\-D. \-It also takes a pathmap to define the track and place objects accordingly. 
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{classterrain_ac3b9c935fdc77ecadb4da3cbc5d34c2d}{\index{terrain@{terrain}!terrain@{terrain}}
+\index{terrain@{terrain}!terrain@{terrain}}
+\subsubsection[{terrain}]{\setlength{\rightskip}{0pt plus 5cm}{\bf terrain\-::terrain} (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{pic}
+\end{DoxyParamCaption}
+)}}\label{classterrain_ac3b9c935fdc77ecadb4da3cbc5d34c2d}
+
+
+\-This is the constructor of the terrain class. 
+
+\-This function is an constructor of the terrain class and takes an arguement the name of the heightmap 
+\begin{DoxyParams}{\-Parameters}
+{\em pic} & a char array pointer conating heightmap \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classterrain_a1b0e140f76afbc44982d143e7ebd56d4}{\index{terrain@{terrain}!get\-Height@{get\-Height}}
+\index{get\-Height@{get\-Height}!terrain@{terrain}}
+\subsubsection[{get\-Height}]{\setlength{\rightskip}{0pt plus 5cm}\-G\-Lfloat {\bf terrain\-::get\-Height} (
+\begin{DoxyParamCaption}
+\item[{int}]{i, }
+\item[{int}]{j}
+\end{DoxyParamCaption}
+)}}\label{classterrain_a1b0e140f76afbc44982d143e7ebd56d4}
+
+
+\-Computes height at any point in the terrain. 
+
+returns the height at a point in heightmap
+
+\-This function computes height at any point in the heightmap using data field of the terrain
+
+this function return the height at a point in terrain using data field of the terrain object /param int i x value of the point whose height is to be calculated /param int j z value of the point whose height is to be calculated \hypertarget{classterrain_ac759516ced9ff5622a4582f4655a68e4}{\index{terrain@{terrain}!\-Read@{\-Read}}
+\index{\-Read@{\-Read}!terrain@{terrain}}
+\subsubsection[{\-Read}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf terrain\-::\-Read} (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{classterrain_ac759516ced9ff5622a4582f4655a68e4}
+
+
+\-Reads the texture images and heightmap. 
+
+\-Reads the heightmap.
+
+\-This function is called in init and it makes textures objects and reads the heightmap and pathmap \-It takes parameters from the object it is called and various parameters associated with a track are assigned in the init function.
+
+\-This function reads the texture images specified in the terrain object and reads the heightmap. \-It fills the texture array with textures \hypertarget{classterrain_ae75762648c90ea43d96682f14c4ca959}{\index{terrain@{terrain}!\-Render@{\-Render}}
+\index{\-Render@{\-Render}!terrain@{terrain}}
+\subsubsection[{\-Render}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf terrain\-::\-Render} (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{classterrain_ae75762648c90ea43d96682f14c4ca959}
+
+
+\-Renderer on \-Terrain with texture. 
+
+/ \-This array stores the location of the markers on the track
+
+\-This function calls \-Render1 funciton which actually renders the terrain using frustum culling. \-Actually firstly this function used to call displaylist of terrain rendering but afterwards frustum culling was used. 
+\begin{DoxyParams}{\-Parameters}
+{\em it} & taks no arguement \\
+\hline
+\end{DoxyParams}
+\hypertarget{classterrain_a0bbd83dd3fcae5e98a742426ca0952f7}{\index{terrain@{terrain}!\-Render1@{\-Render1}}
+\index{\-Render1@{\-Render1}!terrain@{terrain}}
+\subsubsection[{\-Render1}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf terrain\-::\-Render1} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Texture} $\ast$}]{}
+\end{DoxyParamCaption}
+)}}\label{classterrain_a0bbd83dd3fcae5e98a742426ca0952f7}
+
+
+renders the terrain 
+
+this function executes the commands of rendering the terrain. it uses frustum culling to selectively render triangles of the terrain. 
+\begin{DoxyParams}{\-Parameters}
+{\em \hyperlink{classTexture}{\-Texture}} & $\ast$ -\/\-A pointer to array of textures\\
+\hline
+\end{DoxyParams}
+\-This function renders the terrain on the heightmap and applying the textures specified on the scaled heightmap. /param \hyperlink{classTexture}{\-Texture} a\mbox{[}\mbox{]} \-This stores the textures in the an array which are chosen to be applied accordingly 
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{classterrain_a71030654906d773de10eedbf121093b0}{\index{terrain@{terrain}!ad@{ad}}
+\index{ad@{ad}!terrain@{terrain}}
+\subsubsection[{ad}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Texture} {\bf terrain\-::ad}\mbox{[}4\mbox{]}}}\label{classterrain_a71030654906d773de10eedbf121093b0}
+\-This array contains the processed texture data returned by the method in texture class and it is used to apply textures on different objects. \hypertarget{classterrain_ad07206f55359d1f2084ece2b06675425}{\index{terrain@{terrain}!data@{data}}
+\index{data@{data}!terrain@{terrain}}
+\subsubsection[{data}]{\setlength{\rightskip}{0pt plus 5cm}\-G\-Lubyte$\ast$ {\bf terrain\-::data}}}\label{classterrain_ad07206f55359d1f2084ece2b06675425}
+\-This byte array stores the data of the image file in byte format and is used to determine the height of the terrain and in physics engine \hypertarget{classterrain_abcf95fb0b8f7ef597a708e22ff10f42f}{\index{terrain@{terrain}!heightmap@{heightmap}}
+\index{heightmap@{heightmap}!terrain@{terrain}}
+\subsubsection[{heightmap}]{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ {\bf terrain\-::heightmap}}}\label{classterrain_abcf95fb0b8f7ef597a708e22ff10f42f}
+\-The filename of the heightmap is stored in this field \hypertarget{classterrain_abab37c6ed21ad3de44b7b11f31b702e6}{\index{terrain@{terrain}!ids@{ids}}
+\index{ids@{ids}!terrain@{terrain}}
+\subsubsection[{ids}]{\setlength{\rightskip}{0pt plus 5cm}\-G\-Luint {\bf terrain\-::ids}\mbox{[}3\mbox{]}}}\label{classterrain_abab37c6ed21ad3de44b7b11f31b702e6}
+\-This array stores the ids of the textures which have been genrated by the texture class. \hypertarget{classterrain_a117ae013cf3d2da36b6febe47619c69b}{\index{terrain@{terrain}!normals@{normals}}
+\index{normals@{normals}!terrain@{terrain}}
+\subsubsection[{normals}]{\setlength{\rightskip}{0pt plus 5cm}{\bf normal}$\ast$$\ast$ {\bf terrain\-::normals}}}\label{classterrain_a117ae013cf3d2da36b6febe47619c69b}
+\-This is a poinetr to an array of normals pointers storing normals at each point \hypertarget{classterrain_a71b1c37938c0112a98a605855f7d9eef}{\index{terrain@{terrain}!pathname@{pathname}}
+\index{pathname@{pathname}!terrain@{terrain}}
+\subsubsection[{pathname}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ {\bf terrain\-::pathname}}}\label{classterrain_a71b1c37938c0112a98a605855f7d9eef}
+this character array stores the name of the file containing description of the path \hypertarget{classterrain_a1243f9d89e96dd55c48ea97eeea4053d}{\index{terrain@{terrain}!terrainheight@{terrainheight}}
+\index{terrainheight@{terrainheight}!terrain@{terrain}}
+\subsubsection[{terrainheight}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf terrain\-::terrainheight}}}\label{classterrain_a1243f9d89e96dd55c48ea97eeea4053d}
+\-This field stores height of the terrain \hypertarget{classterrain_a50b9180d571e351f6c990c20eb49e18d}{\index{terrain@{terrain}!terrainwidth@{terrainwidth}}
+\index{terrainwidth@{terrainwidth}!terrain@{terrain}}
+\subsubsection[{terrainwidth}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf terrain\-::terrainwidth}}}\label{classterrain_a50b9180d571e351f6c990c20eb49e18d}
+\-This field stores the width of the terrain \hypertarget{classterrain_ad6747f910061feba36ea983cc791c82f}{\index{terrain@{terrain}!textures@{textures}}
+\index{textures@{textures}!terrain@{terrain}}
+\subsubsection[{textures}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf terrain\-::textures}\mbox{[}4\mbox{]}}}\label{classterrain_ad6747f910061feba36ea983cc791c82f}
+\-This array stores the name of the texture files which are to be mapped on the terrain and certain parts of \-H\-U\-D 
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+terrain.\-h\item 
+terrain.\-cpp\end{DoxyCompactItemize}

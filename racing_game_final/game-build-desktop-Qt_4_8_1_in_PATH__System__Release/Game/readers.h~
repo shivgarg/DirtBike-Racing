@@ -1,0 +1,22 @@
+/*
+ * readers.h
+ *
+ *  Created on: Aug 8, 2013
+ *      Author: cs1120224
+ */
+
+#ifndef READERS_H_
+#define READERS_H_
+
+
+class Manager{
+public:
+	void next();
+	void UpdateVel();
+	void HandleCollision();
+	void check();
+};
+
+
+
+#endif /* PHYSICS_H_ */

@@ -1,0 +1,32 @@
+/*
+ * Object.h
+ *
+ *  Created on: Aug 6, 2013
+ *      Author: cs1120224
+ */
+#ifndef OBJECT_H_
+#define OBJECT_H_
+
+#include "Vector3D.h"
+#include <GL/gl.h>
+#include <GL/glut.h>
+#include <GL/glu.h>
+#include "terrain.h"
+#include <cmath>
+//#include "global.h"
+
+class Object
+{
+	public:
+
+		Vector3D position,velocity;
+		int ctheta,cphi,calpha;
+		float size,vmag,height;
+		void Draw();
+		void addObj();
+		void addMarker();
+		void init(void);
+};
+
+
+#endif /* OBJECT_H_ */

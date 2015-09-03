@@ -1,0 +1,123 @@
+\hypertarget{classTexture}{\section{\-Texture \-Class \-Reference}
+\label{classTexture}\index{\-Texture@{\-Texture}}
+}
+
+
+\hyperlink{classTexture}{\-Texture} \-Class.  
+
+
+
+
+{\ttfamily \#include $<$first.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\-G\-Luint \hyperlink{classTexture_aa724f7918b3ef17cdba6f024ae44464d}{\-Load\-Image} ()
+\begin{DoxyCompactList}\small\item\em \-Loads the \hyperlink{classTexture}{\-Texture}. \end{DoxyCompactList}\item 
+void \hyperlink{classTexture_afd9faebeb8e143a319c64901c3270b4a}{\-Render} (\hyperlink{classTexture}{\-Texture} b)
+\begin{DoxyCompactList}\small\item\em \-Maps texture on a surface. \end{DoxyCompactList}\item 
+\hyperlink{classTexture_a824f9cf53cce18dd86d414156527c1bd}{\-Texture} (const char $\ast$d)
+\begin{DoxyCompactList}\small\item\em \-Constructor. \end{DoxyCompactList}\item 
+\hyperlink{classTexture_a6c275e3f186675ff6ed73ccf970e552f}{\-Texture} ()
+\begin{DoxyCompactList}\small\item\em \-Constructor. \end{DoxyCompactList}\item 
+\-G\-Lfloat \hyperlink{classTexture_a4feda287b0d9f5e6463c6c97b0fbf128}{get\-Height} (int, int)
+\begin{DoxyCompactList}\small\item\em \-Returns height at a point on the texture. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const char $\ast$ \hyperlink{classTexture_a3fbd56d42e15136004eb7438178f83d1}{pic}
+\item 
+\-G\-Lubyte $\ast$ \hyperlink{classTexture_ad0dc96bb867719f5bdaf02197c6bddbe}{data}
+\item 
+\hypertarget{classTexture_af1debfe3c7fe6125c35182aa39939379}{int {\bfseries terrainwidth}}\label{classTexture_af1debfe3c7fe6125c35182aa39939379}
+
+\item 
+\hypertarget{classTexture_a42dfee8c3eafbfee0a30e71c3454d541}{int {\bfseries terrainheight}}\label{classTexture_a42dfee8c3eafbfee0a30e71c3454d541}
+
+\item 
+\hypertarget{classTexture_a6466bb11cad65272377093e7a53c6449}{\-G\-Luint {\bfseries \-Terrainid}}\label{classTexture_a6466bb11cad65272377093e7a53c6449}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\hyperlink{classTexture}{\-Texture} \-Class. 
+
+\-This class takes texture map as input and gives loaded texture map as output 
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{classTexture_a824f9cf53cce18dd86d414156527c1bd}{\index{\-Texture@{\-Texture}!\-Texture@{\-Texture}}
+\index{\-Texture@{\-Texture}!Texture@{\-Texture}}
+\subsubsection[{\-Texture}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Texture\-::\-Texture} (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{d}
+\end{DoxyParamCaption}
+)}}\label{classTexture_a824f9cf53cce18dd86d414156527c1bd}
+
+
+\-Constructor. 
+
+\-This constructs an object of texture class and assigns the image in pic field. /param const char$\ast$ d \-It contains the filename of theimage to be mapped \hypertarget{classTexture_a6c275e3f186675ff6ed73ccf970e552f}{\index{\-Texture@{\-Texture}!\-Texture@{\-Texture}}
+\index{\-Texture@{\-Texture}!Texture@{\-Texture}}
+\subsubsection[{\-Texture}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Texture\-::\-Texture} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classTexture_a6c275e3f186675ff6ed73ccf970e552f}
+
+
+\-Constructor. 
+
+\-This constructs an object of texture class having null values of all fields 
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classTexture_a4feda287b0d9f5e6463c6c97b0fbf128}{\index{\-Texture@{\-Texture}!get\-Height@{get\-Height}}
+\index{get\-Height@{get\-Height}!Texture@{\-Texture}}
+\subsubsection[{get\-Height}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf \-Texture\-::get\-Height} (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}}\label{classTexture_a4feda287b0d9f5e6463c6c97b0fbf128}
+
+
+\-Returns height at a point on the texture. 
+
+\-This function was made fore some testing purposes no significance; \hypertarget{classTexture_aa724f7918b3ef17cdba6f024ae44464d}{\index{\-Texture@{\-Texture}!\-Load\-Image@{\-Load\-Image}}
+\index{\-Load\-Image@{\-Load\-Image}!Texture@{\-Texture}}
+\subsubsection[{\-Load\-Image}]{\setlength{\rightskip}{0pt plus 5cm}\-G\-Luint {\bf \-Texture\-::\-Load\-Image} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classTexture_aa724f7918b3ef17cdba6f024ae44464d}
+
+
+\-Loads the \hyperlink{classTexture}{\-Texture}. 
+
+\-This function loads the given image file into texture format into byte array \-R\-G\-B format. \hypertarget{classTexture_afd9faebeb8e143a319c64901c3270b4a}{\index{\-Texture@{\-Texture}!\-Render@{\-Render}}
+\index{\-Render@{\-Render}!Texture@{\-Texture}}
+\subsubsection[{\-Render}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Texture\-::\-Render} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Texture}}]{b}
+\end{DoxyParamCaption}
+)}}\label{classTexture_afd9faebeb8e143a319c64901c3270b4a}
+
+
+\-Maps texture on a surface. 
+
+\-This function maps the texture on a the smae image treating it as a heightmap /param \hyperlink{classTexture}{\-Texture} b a texture object which is to be mapped 
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{classTexture_ad0dc96bb867719f5bdaf02197c6bddbe}{\index{\-Texture@{\-Texture}!data@{data}}
+\index{data@{data}!Texture@{\-Texture}}
+\subsubsection[{data}]{\setlength{\rightskip}{0pt plus 5cm}\-G\-Lubyte$\ast$ {\bf \-Texture\-::data}}}\label{classTexture_ad0dc96bb867719f5bdaf02197c6bddbe}
+\-This field has the file loaded in the format \-R\-G\-B in a byte array \hypertarget{classTexture_a3fbd56d42e15136004eb7438178f83d1}{\index{\-Texture@{\-Texture}!pic@{pic}}
+\index{pic@{pic}!Texture@{\-Texture}}
+\subsubsection[{pic}]{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ {\bf \-Texture\-::pic}}}\label{classTexture_a3fbd56d42e15136004eb7438178f83d1}
+\-This field has the filename of the image to be mapped 
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+first.\-h\item 
+first.\-cpp\end{DoxyCompactItemize}

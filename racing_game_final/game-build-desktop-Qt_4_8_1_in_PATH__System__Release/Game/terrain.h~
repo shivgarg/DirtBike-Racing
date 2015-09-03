@@ -1,0 +1,61 @@
+/*
+ * terrain.h
+ *
+ *  Created on: 7 Aug 2013
+ *      Author: shivam
+ */
+
+#ifndef TERRAIN_H_
+#define TERRAIN_H_
+
+#include <GL/gl.h>
+#include <GL/glu.h>
+#include <GL/glut.h>
+#include <string>
+#include "first.h"
+#include <vector>
+
+#include "Vector3D.h"
+
+
+using namespace std;
+
+struct normal{
+	float x;
+	float y;
+	float z;
+};
+struct bonus{
+	Vector3D position;
+	bool taken;
+};
+
+class terrain
+{
+public:
+	const char * heightmap;
+	GLubyte * data;
+	int terrainwidth;
+	int terrainheight;
+	string textures[4];
+	GLuint ids[3];
+	//int clamp[];
+	Texture  ad[4];
+	normal** normals;
+	char * pathname;
+	bonus markers[300];
+public:
+	void Render(void);
+	void Read(void);
+	Texture * loader();
+	terrain(char * pic);
+	terrain(void);
+	void computenormals(void);
+	GLfloat getHeight(int,int);
+	void Render1(Texture *);
+	//bool PointInFrustum( float x, float y, float z );
+
+};
+
+
+#endif /* TERRAIN_H_ */

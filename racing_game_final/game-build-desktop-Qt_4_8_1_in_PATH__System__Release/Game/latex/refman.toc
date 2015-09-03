@@ -1,0 +1,85 @@
+\contentsline {chapter}{\numberline {1}\discretionary {-}{}{}Class \discretionary {-}{}{}Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}\discretionary {-}{}{}Class \discretionary {-}{}{}List}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}\discretionary {-}{}{}Class \discretionary {-}{}{}Documentation}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}G\discretionary {-}{}{}L\discretionary {-}{}{}Mgroup \discretionary {-}{}{}Struct \discretionary {-}{}{}Reference}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}G\discretionary {-}{}{}L\discretionary {-}{}{}Mmaterial \discretionary {-}{}{}Struct \discretionary {-}{}{}Reference}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}G\discretionary {-}{}{}L\discretionary {-}{}{}Mmodel \discretionary {-}{}{}Struct \discretionary {-}{}{}Reference}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}G\discretionary {-}{}{}L\discretionary {-}{}{}Mnode \discretionary {-}{}{}Struct \discretionary {-}{}{}Reference}{4}{section.2.4}
+\contentsline {section}{\numberline {2.5}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}G\discretionary {-}{}{}L\discretionary {-}{}{}Mpolygon \discretionary {-}{}{}Struct \discretionary {-}{}{}Reference}{5}{section.2.5}
+\contentsline {section}{\numberline {2.6}\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}G\discretionary {-}{}{}L\discretionary {-}{}{}Mtriangle \discretionary {-}{}{}Struct \discretionary {-}{}{}Reference}{5}{section.2.6}
+\contentsline {section}{\numberline {2.7}bonus \discretionary {-}{}{}Struct \discretionary {-}{}{}Reference}{5}{section.2.7}
+\contentsline {section}{\numberline {2.8}coordxy \discretionary {-}{}{}Struct \discretionary {-}{}{}Reference}{6}{section.2.8}
+\contentsline {section}{\numberline {2.9}\discretionary {-}{}{}Manager \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{6}{section.2.9}
+\contentsline {subsection}{\numberline {2.9.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{6}{subsection.2.9.1}
+\contentsline {subsection}{\numberline {2.9.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{6}{subsection.2.9.2}
+\contentsline {subsubsection}{\numberline {2.9.2.1}\discretionary {-}{}{}Handle\discretionary {-}{}{}Collision}{6}{subsubsection.2.9.2.1}
+\contentsline {subsubsection}{\numberline {2.9.2.2}\discretionary {-}{}{}Update\discretionary {-}{}{}Vel}{6}{subsubsection.2.9.2.2}
+\contentsline {section}{\numberline {2.10}normal \discretionary {-}{}{}Struct \discretionary {-}{}{}Reference}{7}{section.2.10}
+\contentsline {section}{\numberline {2.11}\discretionary {-}{}{}Object \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{7}{section.2.11}
+\contentsline {section}{\numberline {2.12}\discretionary {-}{}{}Objectrender \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{8}{section.2.12}
+\contentsline {subsection}{\numberline {2.12.1}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{8}{subsection.2.12.1}
+\contentsline {subsubsection}{\numberline {2.12.1.1}\discretionary {-}{}{}Objectrender}{8}{subsubsection.2.12.1.1}
+\contentsline {subsection}{\numberline {2.12.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{8}{subsection.2.12.2}
+\contentsline {subsubsection}{\numberline {2.12.2.1}\discretionary {-}{}{}Load\discretionary {-}{}{}B\discretionary {-}{}{}M\discretionary {-}{}{}P}{8}{subsubsection.2.12.2.1}
+\contentsline {subsubsection}{\numberline {2.12.2.2}\discretionary {-}{}{}Load\discretionary {-}{}{}Image}{9}{subsubsection.2.12.2.2}
+\contentsline {subsubsection}{\numberline {2.12.2.3}\discretionary {-}{}{}Load\discretionary {-}{}{}T\discretionary {-}{}{}G\discretionary {-}{}{}A}{9}{subsubsection.2.12.2.3}
+\contentsline {subsubsection}{\numberline {2.12.2.4}\discretionary {-}{}{}Render}{9}{subsubsection.2.12.2.4}
+\contentsline {section}{\numberline {2.13}terrain \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{9}{section.2.13}
+\contentsline {subsection}{\numberline {2.13.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{10}{subsection.2.13.1}
+\contentsline {subsection}{\numberline {2.13.2}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{10}{subsection.2.13.2}
+\contentsline {subsubsection}{\numberline {2.13.2.1}terrain}{10}{subsubsection.2.13.2.1}
+\contentsline {subsection}{\numberline {2.13.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{10}{subsection.2.13.3}
+\contentsline {subsubsection}{\numberline {2.13.3.1}get\discretionary {-}{}{}Height}{10}{subsubsection.2.13.3.1}
+\contentsline {subsubsection}{\numberline {2.13.3.2}\discretionary {-}{}{}Read}{11}{subsubsection.2.13.3.2}
+\contentsline {subsubsection}{\numberline {2.13.3.3}\discretionary {-}{}{}Render}{11}{subsubsection.2.13.3.3}
+\contentsline {subsubsection}{\numberline {2.13.3.4}\discretionary {-}{}{}Render1}{11}{subsubsection.2.13.3.4}
+\contentsline {subsection}{\numberline {2.13.4}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{11}{subsection.2.13.4}
+\contentsline {subsubsection}{\numberline {2.13.4.1}ad}{12}{subsubsection.2.13.4.1}
+\contentsline {subsubsection}{\numberline {2.13.4.2}data}{12}{subsubsection.2.13.4.2}
+\contentsline {subsubsection}{\numberline {2.13.4.3}heightmap}{12}{subsubsection.2.13.4.3}
+\contentsline {subsubsection}{\numberline {2.13.4.4}ids}{12}{subsubsection.2.13.4.4}
+\contentsline {subsubsection}{\numberline {2.13.4.5}normals}{12}{subsubsection.2.13.4.5}
+\contentsline {subsubsection}{\numberline {2.13.4.6}pathname}{12}{subsubsection.2.13.4.6}
+\contentsline {subsubsection}{\numberline {2.13.4.7}terrainheight}{12}{subsubsection.2.13.4.7}
+\contentsline {subsubsection}{\numberline {2.13.4.8}terrainwidth}{12}{subsubsection.2.13.4.8}
+\contentsline {subsubsection}{\numberline {2.13.4.9}textures}{12}{subsubsection.2.13.4.9}
+\contentsline {section}{\numberline {2.14}\discretionary {-}{}{}Texture \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{13}{section.2.14}
+\contentsline {subsection}{\numberline {2.14.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{13}{subsection.2.14.1}
+\contentsline {subsection}{\numberline {2.14.2}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{13}{subsection.2.14.2}
+\contentsline {subsubsection}{\numberline {2.14.2.1}\discretionary {-}{}{}Texture}{13}{subsubsection.2.14.2.1}
+\contentsline {subsubsection}{\numberline {2.14.2.2}\discretionary {-}{}{}Texture}{14}{subsubsection.2.14.2.2}
+\contentsline {subsection}{\numberline {2.14.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{14}{subsection.2.14.3}
+\contentsline {subsubsection}{\numberline {2.14.3.1}get\discretionary {-}{}{}Height}{14}{subsubsection.2.14.3.1}
+\contentsline {subsubsection}{\numberline {2.14.3.2}\discretionary {-}{}{}Load\discretionary {-}{}{}Image}{14}{subsubsection.2.14.3.2}
+\contentsline {subsubsection}{\numberline {2.14.3.3}\discretionary {-}{}{}Render}{14}{subsubsection.2.14.3.3}
+\contentsline {subsection}{\numberline {2.14.4}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{14}{subsection.2.14.4}
+\contentsline {subsubsection}{\numberline {2.14.4.1}data}{14}{subsubsection.2.14.4.1}
+\contentsline {subsubsection}{\numberline {2.14.4.2}pic}{14}{subsubsection.2.14.4.2}
+\contentsline {section}{\numberline {2.15}\discretionary {-}{}{}Vector3\discretionary {-}{}{}D \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{14}{section.2.15}
+\contentsline {subsection}{\numberline {2.15.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{16}{subsection.2.15.1}
+\contentsline {subsection}{\numberline {2.15.2}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{16}{subsection.2.15.2}
+\contentsline {subsubsection}{\numberline {2.15.2.1}\discretionary {-}{}{}Vector3\discretionary {-}{}{}D}{16}{subsubsection.2.15.2.1}
+\contentsline {subsubsection}{\numberline {2.15.2.2}\discretionary {-}{}{}Vector3\discretionary {-}{}{}D}{16}{subsubsection.2.15.2.2}
+\contentsline {subsubsection}{\numberline {2.15.2.3}\discretionary {-}{}{}Vector3\discretionary {-}{}{}D}{16}{subsubsection.2.15.2.3}
+\contentsline {subsection}{\numberline {2.15.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{16}{subsection.2.15.3}
+\contentsline {subsubsection}{\numberline {2.15.3.1}\discretionary {-}{}{}\_\discretionary {-}{}{}cross}{16}{subsubsection.2.15.3.1}
+\contentsline {subsubsection}{\numberline {2.15.3.2}\discretionary {-}{}{}\_\discretionary {-}{}{}negate}{16}{subsubsection.2.15.3.2}
+\contentsline {subsubsection}{\numberline {2.15.3.3}\discretionary {-}{}{}\_\discretionary {-}{}{}normalize}{17}{subsubsection.2.15.3.3}
+\contentsline {subsubsection}{\numberline {2.15.3.4}cross}{17}{subsubsection.2.15.3.4}
+\contentsline {subsubsection}{\numberline {2.15.3.5}dot}{17}{subsubsection.2.15.3.5}
+\contentsline {subsubsection}{\numberline {2.15.3.6}dot}{17}{subsubsection.2.15.3.6}
+\contentsline {subsubsection}{\numberline {2.15.3.7}mod}{17}{subsubsection.2.15.3.7}
+\contentsline {subsubsection}{\numberline {2.15.3.8}operator$\ast $}{17}{subsubsection.2.15.3.8}
+\contentsline {subsubsection}{\numberline {2.15.3.9}operator$\ast $=}{18}{subsubsection.2.15.3.9}
+\contentsline {subsubsection}{\numberline {2.15.3.10}operator+}{18}{subsubsection.2.15.3.10}
+\contentsline {subsubsection}{\numberline {2.15.3.11}operator+=}{18}{subsubsection.2.15.3.11}
+\contentsline {subsubsection}{\numberline {2.15.3.12}operator-\/}{18}{subsubsection.2.15.3.12}
+\contentsline {subsubsection}{\numberline {2.15.3.13}operator-\/=}{18}{subsubsection.2.15.3.13}
+\contentsline {subsubsection}{\numberline {2.15.3.14}operator=}{18}{subsubsection.2.15.3.14}
+\contentsline {subsubsection}{\numberline {2.15.3.15}project}{18}{subsubsection.2.15.3.15}
+\contentsline {subsubsection}{\numberline {2.15.3.16}project}{19}{subsubsection.2.15.3.16}
+\contentsline {subsubsection}{\numberline {2.15.3.17}to\discretionary {-}{}{}String}{19}{subsubsection.2.15.3.17}
+\contentsline {subsubsection}{\numberline {2.15.3.18}unit}{19}{subsubsection.2.15.3.18}
+\contentsline {subsubsection}{\numberline {2.15.3.19}unit}{19}{subsubsection.2.15.3.19}
+\contentsline {subsection}{\numberline {2.15.4}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{19}{subsection.2.15.4}
+\contentsline {subsubsection}{\numberline {2.15.4.1}z}{19}{subsubsection.2.15.4.1}

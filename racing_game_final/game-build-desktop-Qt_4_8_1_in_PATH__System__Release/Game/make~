@@ -1,0 +1,4 @@
+all:	asm
+
+asm:
+	g++ 3.cpp  -lGL -lGLU -lglut terrain.cpp physics.cpp Object.cpp texture.cpp Vector3D.cpp obj1.cpp libtarga.cpp glm.cpp -o run

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/~cs1120252/csp301/!svn/ver/28/trial4/Debug
+END
+first.d
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/~cs1120252/csp301/!svn/ver/27/trial4/Debug/first.d
+END
+3.d
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/~cs1120252/csp301/!svn/ver/30/trial4/Debug/3.d
+END
+Vector3D.d
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/~cs1120252/csp301/!svn/ver/27/trial4/Debug/Vector3D.d
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/~cs1120252/csp301/!svn/ver/28/trial4/Debug/makefile
+END
+terrain.d
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/~cs1120252/csp301/!svn/ver/30/trial4/Debug/terrain.d
+END
+libtarga.d
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/~cs1120252/csp301/!svn/ver/27/trial4/Debug/libtarga.d
+END
+obj1.d
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/~cs1120252/csp301/!svn/ver/30/trial4/Debug/obj1.d
+END
+sources.mk
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/~cs1120252/csp301/!svn/ver/27/trial4/Debug/sources.mk
+END
+Object.d
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/~cs1120252/csp301/!svn/ver/30/trial4/Debug/Object.d
+END
+objects.mk
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/~cs1120252/csp301/!svn/ver/30/trial4/Debug/objects.mk
+END
+trial123
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/~cs1120252/csp301/!svn/ver/27/trial4/Debug/trial123
+END
+physics.d
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/~cs1120252/csp301/!svn/ver/28/trial4/Debug/physics.d
+END
+trial4
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/~cs1120252/csp301/!svn/ver/30/trial4/Debug/trial4
+END
+glm.d
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/~cs1120252/csp301/!svn/ver/27/trial4/Debug/glm.d
+END
+subdir.mk
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/~cs1120252/csp301/!svn/ver/30/trial4/Debug/subdir.mk
+END

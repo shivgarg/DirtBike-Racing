@@ -1,0 +1,88 @@
+# MTL written from /Users/manapkoolman/Desktop/Yusup/FC3 Quad/quad.obj
+newmtl 1
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+newmtl 2
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+newmtl Legs
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd /Users/manapkoolman/Desktop/Yusup/FC3 Quad/398b974c.jpg
+newmtl Quad
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+newmtl hands
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd /Users/manapkoolman/Desktop/Yusup/FC3 Quad/c6b45c72.jpg
+newmtl materialN
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+newmtl material_178
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+newmtl material_27
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+newmtl material_422
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+newmtl materials
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+newmtl materialt
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+newmtl torso
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd /Users/manapkoolman/Desktop/Yusup/FC3 Quad/05038e4d.jpg

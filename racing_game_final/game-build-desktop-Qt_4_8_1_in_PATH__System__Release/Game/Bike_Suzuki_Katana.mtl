@@ -1,0 +1,149 @@
+# Max2Mtl Version 4.0 Mar 10th, 2001
+#
+# Multi/Sub Material__671 (8) to come 
+#
+newmtl 1_-_Default
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  7.6
+illum 2
+map_Kd bike01.tga
+#
+newmtl 19_-_Defaulteddd
+Ka  0.2 0.2 0.2
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  0.3
+Ns  8.4
+illum 2
+#
+newmtl 1_-_Defaultee
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  6.3
+illum 2
+map_Kd bike01.tga
+#
+newmtl fara
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  9.3
+illum 2
+map_Kd bike01.tga
+#
+newmtl 19_-_Defaulteddd
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  9.4
+illum 2
+#
+newmtl 8_-_Default
+Ka  0.4 0.4 0.4
+Kd  0.4 0.4 0.4
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl 9_-_Default
+Ka  0.5 0.5 0.5
+Kd  0.5 0.5 0.5
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl 9_-_Defaulteee
+Ka  0.1 0.1 0.1
+Kd  0.1 0.1 0.1
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+map_Kd bik-op.tga
+map_d bik-op.tga
+#
+# Multi/Sub Material__671 done 
+#
+# Multi/Sub Material__660 (8) to come 
+#
+newmtl 1_-_Default
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  7.6
+illum 2
+map_Kd bike01.tga
+#
+newmtl 19_-_Defaulteee
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.9 0.9 0.9
+d  0.3
+Ns  5.7
+illum 2
+#
+newmtl 1_-_Defaultee
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  6.3
+illum 2
+map_Kd bike01.tga
+#
+newmtl fara
+Ka  1.0 1.0 1.0
+Kd  1.0 1.0 1.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  9.3
+illum 2
+map_Kd bike01.tga
+#
+newmtl 19_-_Defaulteddd
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  9.4
+illum 2
+#
+newmtl 8_-_Default
+Ka  0.4 0.4 0.4
+Kd  0.4 0.4 0.4
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl 9_-_Default
+Ka  0.5 0.5 0.5
+Kd  0.5 0.5 0.5
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl 9_-_Defaulteee
+Ka  0.1 0.1 0.1
+Kd  0.1 0.1 0.1
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.0
+illum 2
+map_Kd bik-op.tga
+map_d bik-op.tga
+#
+# Multi/Sub Material__660 done 
+#
+# EOF

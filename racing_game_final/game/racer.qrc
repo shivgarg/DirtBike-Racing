@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>racer_lugi.png</file>
+    </qresource>
+</RCC>

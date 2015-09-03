@@ -1,0 +1,22 @@
+#ifndef TRACK2_HISCORES_H
+#define TRACK2_HISCORES_H
+
+#include <QWidget>
+
+namespace Ui {
+class Track2_HiScores;
+}
+
+class Track2_HiScores : public QWidget
+{
+    Q_OBJECT
+    
+public:
+    explicit Track2_HiScores(QWidget *parent = 0);
+    ~Track2_HiScores();
+    
+private:
+    Ui::Track2_HiScores *ui;
+};
+
+#endif // TRACK2_HISCORES_H
